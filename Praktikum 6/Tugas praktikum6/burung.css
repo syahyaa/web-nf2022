@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(231, 216, 197);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: rgb(196, 168, 116);
+    text-align: center;
+    padding: 2px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;;
+}
+
+blockquote {
+    background-color: orange;
+    text-align: center;
+    border: 1px dotted black;
+    padding: 2px;
+}
+
+blockquote p{
+    font-size-adjust: inherit;
+    font-weight: bold;
+    margin: 0 auto;
+}
+#header span {
+    font-size-adjust: unset;
+    font-weight: bold;
+}
+
+.nama {
+    text-align: center;
+    padding: 25px;
+    font-size: larger;
+}
+
+.nama a {
+    margin: 0 3px;
+}
+
+
+.gambar {
+    justify-content: center;
+    margin-left: 30%;
+}
+
+.gambar img{
+    width: 29%;
+}
+
+.bBesar {
+    font-size: 50px;
+    font-weight: bold;
+    color: blue;
+    display: inline;
+}
+
+#beternak li, h4{
+    color: coral;
+}
+
+#beternak p {
+    color: #000;
+}
+
+.koleksi {
+    background-color: rgb(231, 216, 197);
+    padding: 0 auto;
+}
+
+.koleksi img{
+    width: 24%;
+}
+
+.promo {
+    text-align: center;
+    margin-top: 0 auto;
+    font-size: 20px;
+}
+
+.promo h3 {
+    background-color: rgb(231, 216, 197);
+    color: #000;
+    width: 55%;
+    margin: 0 auto;
+    border: 2px solid rgb(170, 12, 38);
+}
+
+.promo h4 {
+    color: #000;
+}
