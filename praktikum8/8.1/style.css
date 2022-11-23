@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(232, 255, 127);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul li {
+    margin: 0 1rem;
+}
+
+header img {
+    width: 4rem;
+    height: ;
+}
+/* perent, pembungkus, container */
+/* child, anak, items */
