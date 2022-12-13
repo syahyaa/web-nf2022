@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image BTS</title>
+</head>
+<body>
+    <select id="selectImg" onchange="img_BTS()">
+        <option value="">-- Pilih Member --</option>
+        <option value="RM">RM</option>
+        <option value="JIN">JIN</option>
+        <option value="JIMIN">JIMIN</option>
+        <option value="V">V</option>
+        <option value="J-HOPE">J-HOPE</option>
+        <option value="SUGA">SUGA</option>
+        <option value="JK">JK</option>
+        <option value="BTS">BTS</option>
+    </select>
+    <figure>
+        <img id="img_BTS" src="" alt="">
+    </figure>
+
+    <script>
+        function img_BTS(){
+        let img_BTS = document.getElementById("selectImg").value;
+        let images = document.getElementById("img_BTS");
+
+        if (img_BTS == "RM") {
+            images.src = "RM.jpg";
+            images.width = 600;
+            images.alt = "Ini adalah foto RM.jpg";
+            alert("Ini adalah foto RM.jpg");
+        } else if (img_BTS == "JIN") {
+            images.src = "JIN.jpg";
+            images.width = 600;
+            images.alt = "Ini adalah foto JIN.jpg";
+            alert("Ini adalah foto JIN.jpg");
+        } else if (img_BTS == "JIMIN") {
+            images.src = "JIMIN.jpg";
+            images.width = 600;
+            images.alt = "Ini adalah foto JIMIN.jpg";
+            alert("Ini adalah foto JIMIN.jpg");
+        } else if (img_BTS == "V") {
+            images.src = "V.jpg";
+            images.width = 600;
+            images.alt = "Ini adalah foto V.jpg";
+            alert("Ini adalah foto V.jpg");
+        } else if (img_BTS == "J-HOPE") {
+            images.src = "J-HOPE.jpg";
+            images.width = 600;
+            images.alt = "Ini adalah foto J-HOPE.jpg";
+            alert("Ini adalah foto J-HOPE.jpg");
+        } else if (img_BTS == "SUGA") {
+            images.src = "SUGA.jpg";
+            images.width = 600;
+            images.alt = "Ini adalah foto SUGA.jpg";
+            alert("Ini adalah foto SUGA.jpg");
+        } else if (img_BTS == "JK") {
+            images.src = "JK.jpg";
+            images.width = 600;
+            images.alt = "Ini adalah foto JK.jpg";
+            alert("Ini adalah foto JK.jpg");
+        } else if (img_BTS == "BTS") {
+            images.src = "BTS.jpg";
+            images.width = 600;
+            images.alt = "Ini adalah foto BTS.jpg";
+            alert("Ini adalah foto BTS.jpg");
+        } else {
+            alert("Gagal");
+        }
+    }
+    </script>
+</body>
+</html>
